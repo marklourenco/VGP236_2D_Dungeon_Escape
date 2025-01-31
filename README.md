@@ -4,7 +4,7 @@
 
 A **2D pixelated platformer** where two players must **work together** to escape a dungeon filled with obstacles and treasures. Play locally in **split-screen mode**, controlling either a **swift wolf** or a **nimble rabbit**, each with unique movement abilities!
 
-![Screenshot](https://github.com/user-attachments/assets/c8730bd9-116d-4cb3-b6d5-3886fcd61a40)
+![Screenshot](https://github.com/user-attachments/assets/12e43ab1-8cc2-423a-80cf-9b4e1cf63630)
 
 ---
 
@@ -13,8 +13,8 @@ A **2D pixelated platformer** where two players must **work together** to escape
 - **Explore a dungeon** filled with obstacles, platforms, and treasure chests.
 - **Escape together** by utilizing each character's unique strengths.
 - **Solve platforming challenges** using teamwork.
-
-![Gif](https://github.com/user-attachments/assets/32c4b6c3-5c63-4c08-8b06-2b2f193489ff)
+- 
+![Gif](https://github.com/user-attachments/assets/3ca87628-32ea-41ee-a17f-e3d5c47c1bc9)
 
 ### 🐺 **The Wolf**
 - **Strength**: Runs fast but jumps low.
