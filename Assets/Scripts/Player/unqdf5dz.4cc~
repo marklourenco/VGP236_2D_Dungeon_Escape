@@ -1,0 +1,46 @@
+using Unity.VisualScripting;
+using UnityEngine;
+
+public class PlayerController : MonoBehaviour
+{
+    [SerializeField]
+    private float moveSpeed = 10.0f;
+
+    [SerializeField]
+    private float jumpSpeed = 10.0f;
+
+    private float horizontalMovement;
+    // private bool isJumping = false;
+
+    private Rigidbody2D playerRB = null;
+
+    void Awake()
+    {
+        playerRB = GetComponent<Rigidbody2D>();
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            playerRB.AddForce(new Vector2(0, jumpSpeed))
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        horizontalMovement = Input.GetAxisRaw("Horizontal") * moveSpeed;
+        playerRB.linearVelocity = new Vector2(moveSpeed, playerRB.linearVelocityY);
+    }
+
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if(playerRB.linearVelocityY > -0.1f)
+    //    {
+    //        if (collision.transform.position.y < transform.position.y)
+    //        {
+    //            isJumping = false;
+    //        }
+    //    }
+    //}
+}
